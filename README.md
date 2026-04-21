@@ -165,23 +165,48 @@ Every action passes through OPA policy checks before execution. Destructive acti
 
 ---
 
-## 🤖 Multi-Model. Any AI. Full Power.
+## 🤖 MC-1 LLM AI. Full Power.
 
-Cairo connects to every major AI provider — you're never locked in.
+**MC-1** is ColomboAI's proprietary AI reasoning engine — the brain behind every autonomous action Cairo takes. This isn't a wrapper around a third-party model. MC-1 is purpose-built for **operational AI execution**: thinking in roles, acting in structured steps, and recovering from failure without human intervention.
 
-| Provider | Models |
+### How MC-1 powers every part of Cairo
+
+| Where in Cairo | What MC-1 does |
 |---|---|
-| OpenAI | GPT-4o, GPT-4, GPT-3.5 |
-| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus |
-| Google | Gemini 1.5 Pro, Gemini Flash |
-| DeepSeek | DeepSeek-V3, DeepSeek-R1 |
-| OpenRouter | 100+ models via unified API |
-| Ollama / LM Studio | Local models, fully private |
-| AWS Bedrock | Enterprise-grade cloud models |
+| **Operator loops** | Runs the `observe → decide → act → verify` cycle for every operator, continuously, 24/7 |
+| **Role-aware reasoning** | Each operator gets a prompt scoped to its department, tools, memory context, and risk class — not a generic chat prompt |
+| **Structured action output** | Returns `compose / tool_call / research / plan / inform / wait` — executable decisions, not free-form text |
+| **Company generation** | When you describe a company idea, MC-1 enriches the ACDL bundle — naming departments, operators, and wiring integration manifests |
+| **Natural language edits** | Tell Cairo "add a finance department" — MC-1 applies the change to the live company definition |
+| **Workflow execution** | Drives multi-step workflow DAGs — each step reasoned, verified, and logged before the next fires |
+| **Replanning on failure** | If an action fails, MC-1 replanner rewrites the plan and retries automatically — zero human intervention |
+| **Outcome verification** | After every tool call, MC-1 verifies the result before writing to memory or emitting downstream events |
+| **Concurrent load management** | MC-1 Gate reserves 3 slots for live user chat + 12 for background operators — user experience is never starved |
+| **Fallback resilience** | If the primary MC-1 call times out, a direct fallback fires instantly — operators never freeze or drop tasks |
+
+### MC-1 inside a live operator
+
+```
+Operator wakes on event signal
+        ↓
+MC-1 receives: role + memory context + available tools + conversation history
+        ↓
+MC-1 decides: tool_call → Composio Gmail
+        ↓
+Governance check: OPA policy gate (LOW / MEDIUM / HIGH / CRITICAL)
+        ↓
+Action executes → MC-1 verifies outcome
+        ↓
+Result written to Mem0 long-term memory
+        ↓
+Downstream events emitted → next operator wakes
+```
+
+MC-1 is OpenAI API-compatible — the entire Cairo operator stack is portable and future-proof.
 
 ---
 
-## 🔌 100+ App Integrations via Composio
+## 🔌 100+ App Connects
 
 Cairo operators can take real actions across your entire stack:
 
@@ -262,12 +287,99 @@ With Cairo:    define company → deploy → operate autonomously → scale infi
 
 ---
 
-## 🏪 Marketplace — Coming Soon
+## 🏪 Autonomous Company Marketplace — Live Now
 
-- Skills marketplace — install atomic capabilities
-- Plugin marketplace — domain-level integrations
-- Operator marketplace — pre-built AI workers
-- **Autonomous Company marketplace — install entire companies like apps**
+Cairo has a fully live marketplace where you can **browse, install, and run autonomous companies in one click** — no setup, no configuration, no code.
+
+### How it works
+
+```
+Browse marketplace → click Install → company deploys instantly
+        ↓
+ACE runtime starts all operators automatically
+        ↓
+Company is live — running 24/7 on your account
+```
+
+### What the marketplace gives you
+
+| Feature | What it does |
+|---|---|
+| **Browse & search** | Filter by category, pricing model, rating, or featured — with 30s cached results for instant load |
+| **One-click install** | Hit Install → Cairo validates the bundle, deploys the ACE company, starts all operators automatically |
+| **Free & paid companies** | Free companies install instantly. Paid companies go through Stripe checkout |
+| **Creator publishing** | Build your own autonomous company and publish it to the marketplace for others to use |
+| **Version history** | Every listing tracks versions with changelogs — installed users get notified when updates ship |
+| **Ratings & reviews** | 1–5 star reviews on every listing — community-driven quality signal |
+| **Creator dashboard** | Track installs, earnings, and payout history from your creator dashboard |
+| **Auto-repair** | If an install loses its runtime connection, Cairo auto-repairs it — no manual intervention |
+| **Uninstall cleanly** | Uninstalling stops all operator loops and archives the company — no orphaned processes |
+
+### Deep link support
+
+Every marketplace listing has a shareable URL and a Cairo deep link:
+```
+https://cairo.colomboai.com/marketplace/{company-slug}
+cairo://marketplace/{company-slug}
+```
+
+Share a company. Anyone with Cairo can install it in one click.
+
+---
+
+## 💰 Build & Sell Autonomous Companies — Creator Economy
+
+Cairo isn't just a platform to use autonomous companies. It's a platform to **build and sell them**.
+
+If you can define a company that solves a real problem, you can publish it to the marketplace and earn every time someone installs it.
+
+### Creator flow
+
+```
+Build your company (ACDL bundle)
+        ↓
+Save as private — test it on your own account
+        ↓
+Publish to marketplace (free or paid)
+        ↓
+Other Cairo users install it → operators run on their account
+        ↓
+You earn 70% of every sale — Cairo takes 30%
+```
+
+### Revenue split
+
+| Who gets it | Cut |
+|---|---|
+| **You (creator)** | **70%** of every sale |
+| Cairo platform fee | 30% |
+
+Payouts tracked in your creator dashboard. Full payout history available.
+
+### What creators get
+
+| Tool | What it does |
+|---|---|
+| **Creator dashboard** | See total installs, total earned, and pending payout across all your listings |
+| **Listing management** | Create, edit, publish, unpublish, or resubmit listings at any time |
+| **Version publishing** | Ship updates to your company — all active installs get notified automatically |
+| **Private listings** | Keep a company private for your own use, or share it selectively before going public |
+| **Pricing control** | Set your own price in USD — free or paid |
+| **Payout history** | Full breakdown of gross, platform fee, and net per transaction |
+
+### Listing lifecycle
+
+```
+DRAFT → PRIVATE → PUBLISHED
+                      ↓
+              users install & rate
+                      ↓
+           creator earns 70% per sale
+                      ↓
+        publish new version → installs notified
+```
+
+Creators can unpublish, resubmit after suspension, or deactivate at any time — existing installs keep running.
 
 ---
 
@@ -294,7 +406,7 @@ Cairo is built for production from day one:
 | Backend | FastAPI (async Python) |
 | AI Brain | MC-1 by ColomboAI (OpenAI-compatible) |
 | Memory | Mem0 + ChromaDB |
-| App Integrations | Composio (100+ apps) |
+| App Connects | Composio (100+ apps) |
 | Policy Engine | OPA (Open Policy Agent) |
 | Code Execution | E2B cloud sandboxes |
 | Browser Automation | browser-use |
