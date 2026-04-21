@@ -17,9 +17,13 @@
   <a href="https://x.com/ColomboAI"><img src="https://img.shields.io/badge/Follow-%40ColomboAI-black?style=for-the-badge&logo=x&logoColor=white" /></a>
 </p>
 
-[![Latest Release](https://img.shields.io/github/v/release/ColomboAI-com/cairo-releases?style=flat-square&color=black&label=Latest%20Release)](https://github.com/ColomboAI-com/cairo-releases/releases/latest)
-![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-555?style=flat-square)
-![WebUI](https://img.shields.io/badge/WebUI-Live%20Now-brightgreen?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/ColomboAI-com/cairo-releases?style=flat-square&color=black&label=Latest%20Release" alt="Latest Release" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-555?style=flat-square" alt="platform" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/WebUI-Live%20Now-brightgreen?style=flat-square" alt="WebUI" />
+</p>
 
 ---
 
