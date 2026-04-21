@@ -10,19 +10,15 @@
 </p>
 
 <p align="center">
-  <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/Launch%20WebUI-cairo.colomboai.com-black?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><img src="https://img.shields.io/badge/Download%20Desktop-Latest%20Release-black?style=for-the-badge&logo=github&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://x.com/ColomboAI"><img src="https://img.shields.io/badge/Follow-%40ColomboAI-black?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://cairo.colomboai.com"><strong>🌐 Launch WebUI — cairo.colomboai.com</strong></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><strong>⬇️ Download Desktop App</strong></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://x.com/ColomboAI"><strong>𝕏 Follow @ColomboAI</strong></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/ColomboAI-com/cairo-releases?style=flat-square&color=black&label=Latest%20Release" alt="Latest Release" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-555?style=flat-square" alt="platform" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/WebUI-Live%20Now-brightgreen?style=flat-square" alt="WebUI" />
+  <sub>v2.0.0 &nbsp;|&nbsp; macOS · Windows · Linux &nbsp;|&nbsp; WebUI Live Now ✅</sub>
 </p>
 
 ---
