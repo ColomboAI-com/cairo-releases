@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/🌐_Launch_WebUI-cairo.colomboai.com-black?style=for-the-badge" /></a>
+  <a href="https://cairo.colomboai.com"><img src="https://img.shields.io/badge/Launch%20WebUI-cairo.colomboai.com-black?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   &nbsp;
-  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><img src="https://img.shields.io/badge/⬇️_Download_Desktop-Latest_Release-black?style=for-the-badge" /></a>
+  <a href="https://github.com/ColomboAI-com/cairo-releases/releases/latest"><img src="https://img.shields.io/badge/Download%20Desktop-Latest%20Release-black?style=for-the-badge&logo=github&logoColor=white" /></a>
   &nbsp;
-  <a href="https://x.com/ColomboAI"><img src="https://img.shields.io/badge/Follow-@ColomboAI-black?style=for-the-badge&logo=x" /></a>
+  <a href="https://x.com/ColomboAI"><img src="https://img.shields.io/badge/Follow-%40ColomboAI-black?style=for-the-badge&logo=x&logoColor=white" /></a>
 </p>
 
 <p align="center">
