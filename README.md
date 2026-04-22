@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="https://cairo.colomboai.com/logo.png" alt="Cairo Logo" width="100" />
+  <img src="./assets/cairo-logo-dark.jpg" alt="Cairo by ColomboAI" width="720" />
 </p>
 
-<h1 align="center">CAIRO</h1>
-
 <p align="center">
-  <strong>The Platform Where Autonomous Companies Are Built.</strong><br/>
+  <strong>Cairo by ColomboAI</strong><br/>
+  The platform where autonomous companies are built.<br/>
   <em>Not agents. Not copilots. Not workflows. Companies.</em>
 </p>
 
