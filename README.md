@@ -298,7 +298,7 @@ They will build companies that run on AI natively.
 | Multi-department coordination | ❌ | Limited | Manual | ✅ |
 | Real app integrations | Limited | Limited | Manual setup | ✅ 100+ via Composio |
 | Governance and approval gates | Limited | Limited | Manual | ✅ Built-in OPA |
-| Long-term memory and company state | Limited | Limited | Manual | ✅ Mem0 long-term memory |
+| Long-term memory and company state | Limited | Limited | Manual | ✅ IMP (Isolate Memory Protocol) |
 | Kill switch and runtime controls | ❌ | ❌ | Manual | ✅ Stops in <2 seconds |
 | Desktop + WebUI + API | Partial | Partial | Framework-dependent | ✅ |
 | Strategic outcome | Better agentic assistance | Better AI teammates | More flexible agentic tooling | **The next stage beyond agentic tools: autonomous companies as a new computing platform** |
