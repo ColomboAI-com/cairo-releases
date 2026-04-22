@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <strong>Cairo by ColomboAI</strong><br/>
-  The platform where autonomous companies are built.<br/>
-  <em>Not agents. Not copilots. Not workflows. Companies.</em>
+  <strong>Cairo's Autonomous Companies</strong><br/>
+  The open platform where autonomous companies are built, deployed, and scaled.<br/>
+  <em>Turn AI into real companies — assign goals, launch departments, compound capabilities, and operate 24/7.</em>
 </p>
 
 <p align="center">
