@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <sub>v2.0.0 &nbsp;|&nbsp; macOS · Windows · Linux &nbsp;|&nbsp; WebUI Live Now ✅</sub>
+  <sub>v2.1.0 &nbsp;|&nbsp; macOS · Windows · Linux &nbsp;|&nbsp; WebUI Live Now ✅</sub>
 </p>
 
 ---
